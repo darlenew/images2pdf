@@ -1,6 +1,6 @@
 # images2pdf.py
 
-Merges a set of images into a single PDF document.
+Merge a set of images into a single PDF document.
 
 So my sister gave me 48 screencaps from her iPad in PNG format.  I wanted to view them in the Kindle iPhone app, so I wrote this script to stitch all the PNGs together into a single 48-page PDF document. This should actually work with other image formats (assuming they are supported by the PIL/Pillow).
 
@@ -15,3 +15,4 @@ So my sister gave me 48 screencaps from her iPad in PNG format.  I wanted to vie
 
 # TODO
 * rescale or resize the images so that the pages in the output PDF are easier to view on the iPhone
+* add an option to rotate the images
